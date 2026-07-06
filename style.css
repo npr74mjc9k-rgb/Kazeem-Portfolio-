@@ -68,17 +68,22 @@ nav a:hover {
 }
 
 .btn {
-  background: #38bdf8;
-  color: white;
-  padding: 15px 35px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: 0.3s;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
 
 .btn:hover {
-  background: #0284c7;
-  transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(79,172,254,0.5);
 }
 .about {
   padding: 100px 20px;
@@ -190,12 +195,34 @@ footer {
   font-size: 20px;
 }
 .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
     border: 5px solid #38bdf8;
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.35);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 45px rgba(56, 189, 248, 0.5);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.profile-pic {
+    animation: float 4s ease-in-out infinite;
 }
