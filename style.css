@@ -63,8 +63,11 @@ nav a:hover {
 }
 
 .hero p {
-  font-size: 24px;
-  color: #94a3b8;
+    color: #9ca3af;
+    font-size: 22px;
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.7;
 }
 
 .btn {
@@ -225,4 +228,16 @@ footer {
 
 .profile-pic {
     animation: float 4s ease-in-out infinite;
+}
+
+.btn-secondary{
+    background: transparent;
+    border: 2px solid #38bdf8;
+    color: #38bdf8;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover{
+    background: #38bdf8;
+    color: white;
 }
