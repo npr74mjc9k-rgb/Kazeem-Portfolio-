@@ -51,8 +51,9 @@ header{
     color: #9ca3af;
     font-size: 20px;
     max-width: 360px;
-    margin: 20px auto 35px;
-    line-height: 1.9;
+    margin: 20px auto 45px;
+    line-height: 1.7;
+    text-align: center;
 }
 
 .btn{
