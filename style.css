@@ -49,7 +49,7 @@ header{
 
 .hero p {
     color: #9ca3af;
-    font-size: 24px;
+    font-size: 20px;
     max-width: 650px;
     margin: 30px auto;
     line-height: 1.9;
@@ -192,7 +192,7 @@ footer {
 }
 .profile-pic {
     width: 240px;
-    height: 240px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
