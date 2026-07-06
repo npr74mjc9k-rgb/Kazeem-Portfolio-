@@ -22,7 +22,7 @@ header{
     background: rgba(15,23,42,.98);
     border-bottom: 1px solid rgba(255,255,255,.08);
     z-index: 1000;
-    padding: 15px 25px;
+    padding: 18px 35px;
 }
 
 nav{
@@ -54,41 +54,50 @@ nav a:hover {
   color: #38bdf8;
 }
 
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-  padding-top: 220px;
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 80px;
+    background:
+      radial-gradient(circle at top, rgba(56,189,248,.12), transparent 45%),
+      #0f172a;
 }
 
-.hero h1 {
-  font-size: 60px;
+.hero h1{
+    font-size:72px;
+    font-weight:800;
+    margin-top:15px;
 }
 
 .hero p {
     color: #9ca3af;
-    font-size: 22px;
-    max-width: 600px;
-    margin: 40px auto;
-    line-height: 1.8;
+    font-size: 24px;
+    max-width: 650px;
+    margin: 30px auto;
+    line-height: 1.9;
 }
 
-.btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 14px 32px;
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
-    color: white;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: bold;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+
+    padding:18px 38px;
+
+    border-radius:18px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    background:linear-gradient(90deg,#3b82f6,#00cfff);
+
+    transition:.35s;
 }
 
 .btn:hover {
@@ -205,14 +214,16 @@ footer {
   font-size: 20px;
 }
 .profile-pic {
-    width: 220px;
-    height: 220px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
     margin: 0 auto 50px;
     border: 5px solid #38bdf8;
-    box-shadow: 0 15px 35px rgba(56, 189, 248, 0.35);
+    box-shadow:
+0 0 25px rgba(56,189,248,.5),
+0 0 60px rgba(56,189,248,.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -238,10 +249,9 @@ footer {
 }
 
 .btn-secondary{
-    background: transparent;
-    border: 2px solid #38bdf8;
-    color: #38bdf8;
-    margin-left: 15px;
+    background:transparent;
+    border:2px solid #38bdf8;
+    color:#38bdf8;
 }
 
 .btn-secondary:hover{
@@ -267,4 +277,11 @@ footer {
         padding: 0;
     }
 
+}
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:40px;
 }
