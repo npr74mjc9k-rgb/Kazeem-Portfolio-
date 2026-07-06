@@ -22,7 +22,7 @@ header{
     background: rgba(15,23,42,.98);
     border-bottom: 1px solid rgba(255,255,255,.08);
     z-index: 1000;
-    padding: 18px 35px;
+    padding: 12px 25px;
 }
 
 nav{
@@ -33,20 +33,20 @@ nav{
 
 nav h2{
     color:#38bdf8;
-    font-size:32px;
+    font-size:26px;
     font-weight:700;
 }
 
 nav ul{
     display:flex;
     list-style:none;
-    gap:40px;
+    gap:20px;
 }
 
 nav a{
     color:white;
     text-decoration:none;
-    font-size:20px;
+    font-size:16px;
     transition:.3s;
 }
 
@@ -61,16 +61,17 @@ nav a:hover {
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:120px 20px 80px;
+    padding:70px 20px 60px;
     background:
       radial-gradient(circle at top, rgba(56,189,248,.12), transparent 45%),
       #0f172a;
 }
 
 .hero h1{
-    font-size:72px;
+    font-size:clamp(48px, 8vw, 72px);
     font-weight:800;
-    margin-top:15px;
+    line-height:1.1;
+    white-space:nowrap;
 }
 
 .hero p {
@@ -214,8 +215,8 @@ footer {
   font-size: 20px;
 }
 .profile-pic {
-    width: 280px;
-    height: 280px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
