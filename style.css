@@ -97,6 +97,9 @@ nav a:hover {
     font-weight:700;
 
     background:linear-gradient(90deg,#3b82f6,#00cfff);
+    color:#fff;
+
+    text-decoration:none;
 
     transition:.35s;
 }
@@ -224,7 +227,7 @@ footer {
     border: 5px solid #38bdf8;
     box-shadow:
 0 0 25px rgba(56,189,248,.5),
-0 0 60px rgba(56,189,248,.25);
+0 0 70px rgba(56,189,248,.35);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -282,7 +285,14 @@ footer {
 .hero-buttons{
     display:flex;
     justify-content:center;
-    gap:25px;
+    gap:20px;
     flex-wrap:wrap;
     margin-top:40px;
+}
+.hero-line{
+    width:80px;
+    height:3px;
+    background:linear-gradient(to right,#3b82f6,#22d3ee);
+    margin:18px auto 35px;
+    border-radius:10px;
 }
