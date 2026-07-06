@@ -25,34 +25,7 @@ header{
     padding: 12px 25px;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-nav h2{
-    color:#38bdf8;
-    font-size:26px;
-    font-weight:700;
-}
-
-nav ul{
-    display:flex;
-    list-style:none;
-    gap:20px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    font-size:16px;
-    transition:.3s;
-}
-
-nav a:hover {
-  color: #38bdf8;
-}
 
 .hero{
     min-height:100vh;
