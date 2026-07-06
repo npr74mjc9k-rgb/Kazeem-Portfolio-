@@ -19,7 +19,7 @@ header {
   width: 100%;
   top: 0;
   background: rgba(15, 23, 42, 0.95);
-  padding: 20px 50px;
+  padding: 20px;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav h2 {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 25px;
+  gap: 12px;
 }
 
 nav a {
