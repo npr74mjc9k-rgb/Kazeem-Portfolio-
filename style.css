@@ -360,3 +360,10 @@ nav ul{
 .project-img:hover{
     transform:scale(1.02);
 }
+.project-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
