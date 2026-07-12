@@ -171,13 +171,14 @@ nav a.active::after{
   margin-bottom: 40px;
 }
 
-.project-card {
-  max-width: 700px;
-  margin: auto;
-  background: #1e293b;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+.project-card{
+    width:100%;
+    max-width:900px;
+    margin:40px auto;
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
 }
 
 .project-card h3 {
@@ -350,9 +351,10 @@ nav ul{
 }
 .project-img{
     width:100%;
-    border-radius:12px;
-    margin-bottom:20px;
+    height:420px;
     object-fit:cover;
+    border-radius:18px;
+    margin-bottom:25px;
     border:2px solid rgba(255,255,255,.08);
     transition:.3s ease;
 }
@@ -366,4 +368,30 @@ nav ul{
     gap: 15px;
     flex-wrap: wrap;
     margin-top: 20px;
+}
+@media (max-width:768px){
+
+.project-card{
+    width:95%;
+    padding:20px;
+}
+
+.project-img{
+    height:260px;
+}
+
+.project-card h3{
+    font-size:34px;
+}
+
+.project-card p{
+    font-size:18px;
+}
+
+.project-buttons{
+    flex-direction:column;
+}
+
+.project-buttons .btn{
+    width:100%;
 }
