@@ -172,7 +172,7 @@ nav a.active::after{
 }
 
 .project-card{
-    width:100%;
+    width:95%;
     max-width:900px;
     margin:40px auto;
     background:#1e293b;
@@ -298,100 +298,41 @@ footer {
     color: white;
 }
 
-@media(max-width:768px){
-
-.menu-btn{
-    display:none;
-}
-
-nav ul{
-    flex-direction:row;
-    justify-content:center;
-    gap:25px;
-    padding:0;
-}
-
-}
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-    margin-top:40px;
-}
-.hero-line{
-    width:80px;
-    height:3px;
-    background:linear-gradient(to right,#3b82f6,#22d3ee);
-    margin:18px auto 35px;
-    border-radius:10px;
-}
-.top-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.menu-btn{
-    display:none;
-    background:none;
-    border:none;
-    color:white;
-    font-size:30px;
-    cursor:pointer;
-}
-
-.welcome{
-    color:#38bdf8;
-    font-size:18px;
-    font-weight:700;
-    letter-spacing:4px;
-    text-transform:uppercase;
-    margin-bottom:15px;
-}
-.project-img{
-    width:100%;
-    height:420px;
-    object-fit:cover;
-    border-radius:18px;
-    margin-bottom:25px;
-    border:2px solid rgba(255,255,255,.08);
-    transition:.3s ease;
-}
-
-.project-img:hover{
-    transform:scale(1.02);
-}
-.project-buttons{
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
 @media (max-width:768px){
 
-.project-card{
-    width:95%;
-    padding:20px;
-}
+    .menu-btn{
+        display:none;
+    }
 
-.project-img{
-    height:260px;
-}
+    nav ul{
+        flex-direction:row;
+        justify-content:center;
+        gap:25px;
+        padding:0;
+    }
 
-.project-card h3{
-    font-size:34px;
-}
+    .project-card{
+        width:95%;
+        padding:20px;
+    }
 
-.project-card p{
-    font-size:18px;
-}
+    .project-img{
+        height:260px;
+    }
 
-.project-buttons{
-    flex-direction:column;
-}
+    .project-card h3{
+        font-size:34px;
+    }
 
-.project-buttons .btn{
-    width:100%;
+    .project-card p{
+        font-size:18px;
+    }
+
+    .project-buttons{
+        flex-direction:column;
+    }
+
+    .project-buttons .btn{
+        width:100%;
+    }
 }
