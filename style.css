@@ -187,7 +187,7 @@ nav a.active::after{
 
 .project-img{
     width:100%;
-    height:190px;
+    height:180px;
     object-fit:cover;
 }
 
@@ -200,10 +200,9 @@ nav a.active::after{
 
 .project-card p{
     color:#cbd5e1;
-    line-height:1.7;
-    padding:0 20px;
-    margin-bottom:25px;
-    flex-grow:1;
+    line-height:1.6;
+    margin:10px 0 18px;
+    font-size:15px;
 }
 
 .project-buttons{
@@ -378,7 +377,7 @@ footer {
     margin-top:50px;
 }
 .project-content{
-    padding:20px;
+    padding:16px;
     display:flex;
     flex-direction:column;
     flex-grow:1;
