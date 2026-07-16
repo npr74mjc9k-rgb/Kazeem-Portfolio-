@@ -445,3 +445,35 @@ footer {
     font-weight:600;
     border:1px solid rgba(56,189,248,.3);
 }
+@media (max-width:768px){
+
+    nav{
+        display:none;
+    }
+
+    nav.show{
+        display:block;
+        margin-top:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:18px;
+        text-align:center;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+}
+
+@media (min-width:769px){
+
+    .menu-btn{
+        display:none;
+    }
+
+    nav{
+        display:block !important;
+    }
+}
