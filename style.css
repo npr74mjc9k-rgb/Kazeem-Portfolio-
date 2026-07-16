@@ -428,3 +428,19 @@ footer {
     color:#cbd5e1;
     line-height:1.7;
 }
+.project-tags{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:18px;
+}
+
+.project-tags span{
+    background:rgba(56,189,248,.12);
+    color:#38bdf8;
+    padding:6px 14px;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:600;
+    border:1px solid rgba(56,189,248,.3);
+}
